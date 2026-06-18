@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import arrowIcon from '../assets/images/Arrow 1.png';
-import puraLempuyang from '../assets/images/pura_lempuyang.png';
-import puraTamanAyun from '../assets/images/pura_taman_ayun.png';
-import nusaPenida from '../assets/images/nusa_penida 2.png';
+import arrowIcon from '../assets/images/Arrow 1.webp';
+import puraLempuyang from '../assets/images/pura_lempuyang.webp';
+import puraTamanAyun from '../assets/images/pura_taman_ayun.webp';
+import nusaPenida from '../assets/images/nusa_penida 2.webp';
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

@@ -1,4 +1,4 @@
-import footerLogo from '../assets/images/footer_logo.png';
+import footerLogo from '../assets/images/footer_logo.webp';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
