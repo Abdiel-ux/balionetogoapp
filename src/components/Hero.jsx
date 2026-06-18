@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
 import arrowIcon from '../assets/images/Arrow 1.png';
-import logo from '../assets/images/brand_logo.png';
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+
   // Daftar gambar background - tambahkan gambar Anda di sini
   const backgroundImages = [
     'src/assets/images/pura_lempuyang.png',
@@ -14,7 +13,7 @@ export default function Hero() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => 
+      setCurrentImageIndex((prevIndex) =>
         (prevIndex + 1) % backgroundImages.length
       );
     }, 5000);
@@ -35,15 +34,12 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover z-0 transition-all duration-1000"
       />
 
-      {/* Header with Logo and Text */}
-      <div className="relative z-20 flex items-center gap-5 border-2 border-white px-7 py-3 mb-6">
-        <img src={logo} alt="BaliOneToGo Logo" className="w-14 h-14" />
-        <h2 className="text-white text-4xl font-normal tracking-wide">BaliOneToGo</h2>
-      </div>
+      {/* Spacer agar konten tidak tertutup Navbar fixed */}
+      <div className="h-[88px]" />
 
       {/* Content */}
       <div className="relative z-20 max-w-md mx-auto px-6 w-full">
-        <h1 className=" text-white text-4xl font-bold leading-tight mb-4">
+        <h1 className="text-white text-4xl font-bold leading-tight mb-4">
           Providing<br />
           professional and<br />
           experienced<br />
@@ -54,13 +50,10 @@ export default function Hero() {
           providing comfortable, safe, and enjoyable travel experiences for both local
           and international tourists.
         </p>
-        <a
-          href="#contact"
-          className="inline-flex items-center justify-center w-14 h-14 border-2 border-white transition-transform duration-300 hover:scale-110"
-          aria-label="Get in touch"
-        >
+        <a href="#contact" className="inline-flex items-center justify-center w-14 h-14 border-2 border-white transition-transform duration-300 hover:scale-110" aria-label="Get in touch">
           <img src={arrowIcon} alt="arrow" className="w-6 h-4" />
         </a>
       </div>
     </section>
-  )};
+  );
+}
