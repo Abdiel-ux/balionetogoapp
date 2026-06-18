@@ -1,14 +1,17 @@
 import { useState, useEffect } from 'react';
 import arrowIcon from '../assets/images/Arrow 1.png';
+import puraLempuyang from '../assets/images/pura_lempuyang.png';
+import puraTamanAyun from '../assets/images/pura_taman_ayun.png';
+import nusaPenida from '../assets/images/nusa_penida 2.png';
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Daftar gambar background - tambahkan gambar Anda di sini
   const backgroundImages = [
-    'src/assets/images/pura_lempuyang.png',
-    'src/assets/images/pura_taman_ayun.png',
-    'src/assets/images/nusa_penida 2.png',
+    puraLempuyang,
+    puraTamanAyun,
+    nusaPenida,
   ];
 
   useEffect(() => {
