@@ -13,11 +13,13 @@ export default function Contact() {
         {/* Contact cards */}
         <div className="space-y-4 mb-10">
           <a
-            href="+6212345678900"
+            href="https://wa.me/6285857648051"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-4 hover:bg-white/10 border border-white  px-5 py-4 transition-colors group justify-center"
           > 
             <div>
-              <p className="text-white font-semibold text-xl tracking-wide">+62 1234-5678-900</p>
+              <p className="text-white font-semibold text-xl tracking-wide">+62 858 5764 8051</p>
             </div>
           </a>
 
@@ -28,11 +30,13 @@ export default function Contact() {
           </div>
 
           <a
-            href="balione@gmail.com"
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=balionetogo@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-4 hover:bg-white/10 border border-white px-5 py-4 transition-colors group justify-center"
           >
             <div>
-              <p className="text-white font-semibold text-xl">balione@gmail.com</p>
+              <p className="text-white font-semibold text-xl">balionetogo@gmail.com</p>
             </div>
           </a>
         </div>
