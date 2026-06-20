@@ -30,7 +30,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="mailto:balionetogo@gmail.com"
+            href="mailto:balionetogo@gmail.com?subject=Order&body=Hello%2C%20I%20want%20to%20order%20for%20__days%0AAt%20(date%20of%20pre-order)%20%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A"
             className="flex items-center gap-4 hover:bg-white/10 border border-white px-5 py-4 transition-colors group justify-center"
           >
             <div>
