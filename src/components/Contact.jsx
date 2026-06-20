@@ -30,9 +30,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=balionetogo@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:balionetogo@gmail.com"
             className="flex items-center gap-4 hover:bg-white/10 border border-white px-5 py-4 transition-colors group justify-center"
           >
             <div>
